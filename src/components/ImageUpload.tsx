@@ -26,7 +26,7 @@ export default function ImageUpload() {
     setLoading(true)
     setShowResult(false)
     try {
-      const res = await fetch('https://api.thomasianbudiman.com/predict', {
+      const res = await fetch('https://api.thomasianbudiman.com/durian/predict', {
         method: 'POST',
         headers: {
           'Authorization': 'Bearer TEST_T0KEN_101000',
